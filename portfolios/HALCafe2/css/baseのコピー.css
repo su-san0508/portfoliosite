@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+/*全体の設定*/
+✴︎{ 
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    vertical-align: bottom;}/*画像の下余白削除*/
+
+    p{line-height: 1.5em;}/*pタグの行間1.5em*/
+
+
+/*ヘッダーの設定*/
+.header{
+    width: 1000px; 
+    margin: 0 auto;
+    
+}
+
+.title{
+    font-size: 14px;
+    margin: 1.5em ;
+color: #5f261c;
+}
+
+.header_div{
+width: 1000px;
+ display: flex;
+ justify-content: space-between;
+ margin: 2em auto;
+
+}
+
+
+/*ナビの設定*/
+nav{
+    width: 100%;
+    height: 3em;
+    background-color:#3253ab;
+
+    
+    
+
+}
+
+nav ul {
+    width: 1000px;
+    display: flex;
+    list-style: none;
+    margin-left:9em;
+    
+    
+
+}
+nav li a{
+    width: 250px;
+    transition: 0.5s ease;
+}
+
+nav li a:hover{
+    background-color: black;
+}
+
+nav ul li{
+    width: 250px;
+    margin: 0.7em auto;
+    text-align: center;
+}
+
+a{
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*メインビジュアルの設定*/
+
+.header_mainvisual{
+width: 100%;
+
+
+}
+
+img.mainvisual{
+    width: 100%;
+}
+
+
+/*メインゾーンの設定*/
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+article{
+    width: 680px;
+    
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    margin:2.5em auto;
+    
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin:2.5em auto;
+    
+}
+
+
+h2{
+    font-size: 22px;
+    border-bottom: solid 1px brown;
+   
+}
+a.text{
+    color: black;
+}
+.contents_img{
+    width: 300px;
+    margin-left: 1.5em;
+   
+}
+.intro_img{
+    width: 300px;
+    ;
+}
+
+.text{
+    font-family:sans-serif;
+    font-size: 16px;
+
+    
+}
+
+aside{
+    width: 300px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.img_aside{
+width: 300px;
+margin-top: 20px;
+}
+
+p{
+    margin: 0 auto;
+    
+}
+
+/*フッターの設定*/
+
+footer{
+    width: 100%;
+    background-color:#003464;
+    text-align: center;
+    padding-bottom: 2em;
+    
+   
+}
+
+.footer_content{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    
+    
+
+}
+table{
+    margin: 2em auto;
+    border:1px #7faedb;
+    
+}
+
+
+.mizu{
+   background-color:#96b6f0;
+  }
+
+  .mizu td{
+color: black;
+  }
+
+tr{
+    background-color:#003464;
+    color: white;
+    margin: 0 auto;
+    
+}
+
+td.left{
+    text-align: left;
+    
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    
+    
+}
+
+td.right{
+    text-align: left;
+    
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    
+}
+.img_footer{
+    margin: 2em auto;
+    
+}
+
+small{
+color: white;
+    
+    
+}
+
+p.copy{
+margin: 2em auto;
+font-size: 14px;
+
+
+}
+
+
+
+/*menu.htmlの設定*/
+
+.menu{
+    font-size: 22px;
+    padding: 1rem 2rem;
+  border-top: 3px double #003464;
+  border-bottom: 3px double #003464;
+
+}
+
+h3{
+    font-size: 18px;
+    border-bottom: solid 1px #3253ab;;
+    padding-top: 0.5em;
+}
+
+
+
