@@ -1,0 +1,399 @@
+
+
+
+@charset "utf-8";
+
+
+
+/*全体の設定*/
+✴︎{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'ヒラギノ明朝 ProN';
+}
+img{
+  vertical-align: bottom;
+}/*画像の下余白削除*/
+
+
+p{
+  line-height: 1.5em;
+}/*pタグの行間1.5em*/
+    
+#wrap{
+  width: 1000px;
+ 
+  margin: 0 auto;
+}
+body{
+  background-image: url(../images/white_background.jpg);
+}
+
+
+
+/*共通文字、コンテンツの設定*/
+.midashi_en{
+  
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 60px;
+  
+
+}
+.midashi_jp{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 24px;
+  display: inline;
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
+ margin-left: 1em;
+ 
+ 
+  
+  
+  
+  
+  
+}
+
+.tyuou{
+  width: 199px;
+  display:inline-block;
+  margin-left: 2em;
+  margin-bottom: 3em;
+}
+
+
+
+
+
+  /*headerの設定*/  
+
+.name{
+  display: flex;
+  
+}
+
+.h2_name1{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 30px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color:#4E4E4E;
+  color: white;
+  padding: 15px 10px;
+ margin-left: 95px;
+ 
+}
+
+.h2_name2{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 30px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: rgb(255, 255,255,0.8);
+  padding: 15px 10px;
+  border:1px solid #4E4E4E;
+}
+
+
+.title{
+  
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 90px;
+  
+
+}
+
+header{
+  margin-top:20px ;
+  background-image: url(../images/mainvisual2.png);
+  width: 1000px;
+  height:530px ;
+
+}
+
+
+
+.header_flex{
+  display: flex;
+
+}
+
+.header_nav_ul{
+  display: flex;
+  width: 560px;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 100px;
+
+}
+.header_nav_li a{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+
+}
+
+  /*#contents1の設定*/
+
+  #contents1{
+    margin: 170px auto;
+  }
+
+  .contents1_flex{
+    display: flex;
+  }
+
+div.profile{
+  background-color: #EDEDED;
+  width: 920px;
+  height: 428px;
+
+}
+
+.obj1{
+  background-color: #4E4E4E ;
+  width:340px ;
+  height:384px ;
+  margin-left:84px ;
+  margin-top: 150px;
+}
+
+.contents1_right{
+  padding-left:90px;
+}
+
+.midashi_about_profile{
+  margin: 1.2em auto;
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 42px;
+  color: black;
+}
+
+.my_profile{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin-bottom: 2em;
+}
+.my_profile2{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+
+
+
+
+  /*#contents2の設定*/
+
+
+
+
+  #contents2{
+    margin-top:200px;
+    
+  }
+
+.p_wolk{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 20px;
+  margin:50px auto;
+  width: 278px;
+
+
+}
+
+.wolk_flex{
+  display: flex;
+}
+
+.wolk_left{
+  width: 430px;
+}
+
+
+.wolkimg{
+ border: 2px solid black;
+}
+
+
+.a_portfolio{
+    font-family:'ヒラギノ明朝 ProN';
+    font-weight: bold;
+    font-size: 36px;
+    padding: 22px 30px;
+    background-color: #4E4E4E;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.a_blog{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 36px;
+  padding: 20px 30px;
+  margin-left:200px;
+  border:1px solid #4E4E4E;
+  text-decoration: none;
+  color: black;
+}
+
+  /*#contents3の設定*/
+
+#contents3{
+  width: 100%;
+  margin-top: 140px;
+  
+  
+}
+
+.h3_form{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-left: 1.5em;
+  
+
+}
+
+
+.div_acess{
+  padding-top: 30px;
+}
+
+.p_access{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  padding: 1em;
+}
+
+.catch {
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; /* 水平中心 */
+}
+.catch:before, .catch:after {
+  border-top: 1px solid;
+  content: "";
+  width: 18em; /* 線の長さ */
+}
+.catch:before {
+  margin-right: 1em; /* 文字の右隣 */
+}
+.catch:after {
+  margin-left: 1em; /* 文字の左隣 */
+}
+
+.div_sns{
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  padding: 1em;
+  text-align: center;
+}
+
+.sns{
+  color: black;
+}
+
+  /*#footerの設定*/
+  footer{
+    
+    margin: 0 auto;
+    background-color:#1D1D1D;
+    text-align: center;
+    height: 200px;
+    
+  
+  }
+
+  small{
+    color: white;
+    font-family:'ヒラギノ明朝 ProN';
+    font-size: 18px;
+    
+  }
+
+
+.footer_nav{
+    
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+.footer_nav_ul{
+  width: 500px;
+   display: flex;
+   justify-content: space-between;
+   padding:10px 20px;
+   color: white;
+   border: 1px solid white;
+   margin: 0 auto;
+}
+
+.footer_nav_li a{
+  font-family:'ヒラギノ明朝 ProN';
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*portfolio.htmlの設定*/
+
+section{
+  width: 800px;
+  margin: 5em auto;
+}
+
+.portfolioimg{
+max-width: 100%;
+margin: 0 auto;
+
+}
+
+
+.h2_portfolio_title{
+  width: 100%;
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 1em;
+  border-bottom: 1px solid black;
+  
+}
+
+.p_portfolio{
+  margin-top: 2em;
+  font-family:'ヒラギノ明朝 ProN';
+  font-weight: bold;
+  font-size: 22px;
+}
+
